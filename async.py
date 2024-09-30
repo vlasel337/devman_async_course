@@ -21,16 +21,7 @@ def draw(canvas):
         canvas.refresh()
         time.sleep(0.3) 
 
-        # canvas.border()
         curses.curs_set(False)
-
-
-  
-# while True:
-#     char = canvas.getch()
-#     print(f"Вы ввели {char}")
-#     key = canvas.getkey()
-#     print(f"Вы ввели {key}")
 
 if __name__ == '__main__':
     curses.update_lines_cols()
